@@ -1,0 +1,209 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: "Montserrat", "Open+Sans",sans-serif;
+}
+
+body{
+  background-color: #00001a;
+  text-align: center;
+
+}
+
+h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 3.7rem;
+  font-weight: bolder;
+}
+
+span{
+  font-size: 2rem;
+  color: yellow;
+}
+
+#welcome-section{
+  height: 100vh;
+  padding-top: 0;
+  margin-top: 0;
+  display: block;
+}
+
+.navcover{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  z-index: 1;
+}
+
+nav ul{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: yellow;
+  text-decoration: none;
+  width: 100%;
+  padding: 0 25%;
+  height: 3rem;
+  list-style: none;
+}
+
+nav ul a{
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+#Home{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: overline;
+  color: yellow;
+
+}
+
+#Works{
+  text-align: center;
+  color: yellow;
+  font-size: 1.5rem;
+  text-decoration: overline;
+  font-weight: bold;
+}
+
+.card{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 25rem;
+  grid-gap: 20px;
+  padding: 2% 6%;
+}
+
+.project-tile{
+  background-size: 40.75rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+  text-align: center;
+}
+
+.project-tile:nth-child(1){
+  background-image: url(https://user-images.githubusercontent.com/32017774/143781375-f0193b47-42f0-45d6-a8e2-048c43621a7e.PNG);
+}
+
+.project-tile:nth-child(2){
+  background-image: url(https://user-images.githubusercontent.com/32017774/143781410-0a422fdf-b5b2-4321-bca2-29d629f51c17.PNG)
+;
+}
+
+.project-tile:nth-child(3){
+  background-image: url(https://user-images.githubusercontent.com/32017774/143781402-053882c1-9c3a-4403-8906-bb7bb67508ef.PNG);
+}
+
+.project-tile:nth-child(4){
+  background-image: url(https://user-images.githubusercontent.com/32017774/143781395-57cc1b46-629f-45e6-ad3f-9dd9de945d1c.PNG);
+}
+
+.project-tile:nth-child(5){
+  background-image: url(https://user-images.githubusercontent.com/32017774/143781385-515434f7-1e1d-4a27-8bf1-0d64021315b3.PNG);
+}
+
+.project-tile:nth-child(6){
+  background-image: url(https://user-images.githubusercontent.com/32017774/183486127-3c74e891-6285-490d-8f4d-84fef184256a.PNG);
+}
+
+.card a{
+  text-decoration: none;
+}
+
+.card a p{
+  width: 100%;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+}
+
+#profile-link{
+  color: yellow;
+  padding-left: 2rem;
+  padding-top: 3%;
+  font-size: 1.5rem;
+}
+
+#profile-link a{
+  color: yellow;
+}
+
+.abouts{
+  text-align: center;
+  color: yellow;
+  font-size: 1.5rem;
+  text-decoration: overline;
+  font-weight: bold;
+}
+
+#About{
+  padding-top: 10%;
+  text-align: center;
+}
+
+#About p{
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+footer{
+  padding: 5%;
+  text-align: center;
+}
+
+footer h3{
+    text-align: center;
+    color: yellow;
+    font-size: 1.5rem;
+    text-decoration: overline;
+    font-weight: bold;
+  }
+
+
+
+.fa{
+  padding: 5% 3% 0.8rem;
+  color: white;
+
+}
+
+@media only screen and (max-width:700px) {
+  h1{
+    font-size: 2rem;
+  }
+
+  nav ul{
+    padding: 0 15%;
+  }
+
+  #About p{
+    font-size: 1rem;
+    padding-left: 1rem;
+    text-align: left;
+  }
+
+  h1, span{
+    padding: 0 5%;
+  }
+}
