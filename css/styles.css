@@ -126,6 +126,10 @@ nav ul a{
   background-image: url(https://user-images.githubusercontent.com/32017774/183486127-3c74e891-6285-490d-8f4d-84fef184256a.PNG);
 }
 
+.project-tile:nth-child(7){
+  background-image: url(https://user-images.githubusercontent.com/32017774/183755616-b75d459f-e7be-4ddc-b40f-4aa98e4bb3ff.PNG);
+}
+
 .card a{
   text-decoration: none;
 }
